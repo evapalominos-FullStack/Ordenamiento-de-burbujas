@@ -1,4 +1,4 @@
-window.alert("Ingrese tres números para ordenarlos:");//es un mensaje que aparece en una ventana del navegador
+window.alert("Ingrese tres números para ordenarlos:");
     let lista = [];
     for (let i = 0; i < 3; i++) {
     contador=i+1;
@@ -24,4 +24,5 @@ window.alert("Ingrese tres números para ordenarlos:");//es un mensaje que apare
         document.writeln("El número ordenado menor es: " + lista[0]);
         document.writeln("<br></br>");         
         document.writeln("El número ordenado mayor es: " + lista[lista.length-1]);
+
     }
